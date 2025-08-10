@@ -85,5 +85,15 @@ target/
 *.swp
 *.swo
 
+ml_project/bin/
+ml_project/lib/python3.11/
+
+
 # Mypy cache
 .mypy_cache/
+.myenv/
+
+ml_project/
+myenv/
+env/
+venv/

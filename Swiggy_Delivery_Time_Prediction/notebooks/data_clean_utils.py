@@ -198,7 +198,8 @@ def perform_data_cleaning(data: pd.DataFrame):
         .pipe(drop_columns,columns=columns_to_drop)
     )
     
-    return cleaned_data.dropna()
+    # return cleaned_data.dropna()
+    return cleaned_data
     
     
 
